@@ -1,4 +1,4 @@
-ASYNC /* AWAIT
+/* ASYNC - AWAIT
 Review
 Awesome work getting the hang of the async...await syntax! Let’s review what you’ve learned:
 
