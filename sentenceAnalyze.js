@@ -23,6 +23,7 @@ let overused = betterWords.filter(word => {
     }
 })
 
+
 let sentence = 0;
 let sentenceCount = betterWords.forEach(word => {
     //checks last character of a word in array, if it is '.' or '!'  to calculate the amount of sentences.
