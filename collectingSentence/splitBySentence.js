@@ -11,7 +11,7 @@ const WordCount = (str) => {
 
 for (let i=0; i<sentence.length; i++) {
     let count = WordCount(sentence[i]);
-    if (count > 4 &&  count < 25) {
+    if (count > 10 &&  count < 25) {
         let sozlem = sentence[i].trim() + '\n';
         fs.appendFile('textsave.txt', sozlem, function (err) {
             if (err) {
